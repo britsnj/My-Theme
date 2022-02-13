@@ -8,3 +8,24 @@
     License: GNU General Public License v2 or later
     
 */
+
+/*Photo by <a href="https://unsplash.com/@olga_o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Olga Thelavart</a> on <a href="https://unsplash.com/s/photos/blank-canvas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+
+body{
+
+    background-image: url(./Images/olga-thelavart-vS3idIiYxX0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#headerContainer{
+    margin: auto;
+    max-width: 1200px;
+    background-color: aqua;
+}
+
+#contentContainer{
+    max-width: 1200px;
+    margin: auto;
+    min-height: 100vh;
+}

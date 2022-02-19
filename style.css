@@ -9,8 +9,6 @@
     
 */
 
-/*Photo by <a href="https://unsplash.com/@olga_o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Olga Thelavart</a> on <a href="https://unsplash.com/s/photos/blank-canvas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
-
 body{
 
     background-image: url(./Images/olga-thelavart-vS3idIiYxX0-unsplash.jpg);
@@ -21,11 +19,55 @@ body{
 #headerContainer{
     margin: auto;
     max-width: 1200px;
-    background-color: aqua;
+    min-height:30vh;
+    background-image: url(https://source.unsplash.com/random/1200x160);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.navbar{
+    background-color: rgba(221, 221, 221, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
 }
 
 #contentContainer{
     max-width: 1200px;
     margin: auto;
     min-height: 100vh;
+    
+}
+
+#content_row{
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+#left_panel{
+    background-color: blueviolet;
+}
+
+footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+#leftFooter{
+    width: 50%;
+        
+}
+#rightFooter{
+    width: 50%;
+    text-align: right;
+
+    
+    
+
 }

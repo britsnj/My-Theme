@@ -11,7 +11,7 @@
 <body>
     <div class="container-md" id="headerContainer">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid" id="navbarContainer">
+            <div class="container-fluid bottom-0 start-0" id="navbarContainer">
               <a class="navbar-brand" href="#">Navbar scroll</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,11 +38,7 @@
                   <li class="nav-item">
                     <a class="nav-link disabled">Link</a>
                   </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                </ul>                
               </div>
             </div>
           </nav>
@@ -50,14 +46,14 @@
 
     </div>
     <div class="container-fluid" id="contentContainer">
-        <div class="row">
-          <div class="col-sm-2">
+        <div class="row min-vh-100" id="content_row">
+          <div class="col-sm-2 min-vh-100" id="left_panel">
             Widget Holders Here
           </div>
-          <div class="col-sm-8">
+          <div class="col-sm-8 min-vh-100" id="main_panel">
             Posts Here
           </div>
-          <div class="col-sm-2">
+          <div class="col-sm-2 min-vh-100" id="right_panel">
             Widget Holders Here
           </div>
         </div>
@@ -72,4 +68,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="./js/mytheme.js"></script>
 </body>
+<footer>
+  <div id="leftFooter">Background Photo by <a href="https://unsplash.com/@olga_o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Olga Thelavart</a> on <a href="https://unsplash.com/s/photos/blank-canvas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div><div id="rightFooter">Theme by <a href="https://nicobrits.dev">NiCodes</div>
+</footer>
 </html>
